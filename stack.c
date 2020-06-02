@@ -29,7 +29,7 @@ return 0;
 int main()
 {
 int choice;
-do{
+{
 printf("\n\n\n-------Welcome to NK7's Stack Program-------\n       Please Note the Stack limit is 10\n       Please enter your choice:\n       1.PUSH\n       2.PoP\n       3.Display the existing Stack\n       4.Exit\n\n");
 scanf("%d",&choice);
 switch(choice)
@@ -45,7 +45,7 @@ exit(1);
 default:
 printf("Invalid entry, please try again");
 }
-}while(choice!=4);
+}
 }
 
 int push()
